@@ -121,6 +121,10 @@ input, .nice-select {
   
 }
 
+.row{
+  justify-items: left;
+}
+
 
 .section-title {
   text-align: center ;
@@ -137,7 +141,6 @@ input, .nice-select {
 }
 
 img {
-  /* grid-area: image; */
   max-width: 100%;
   /* Set the max-width property to 100% */
 }
@@ -147,6 +150,7 @@ img {
 .testimonial-area {
   background-color: rgb(66, 71, 81);
   padding: 2rem;
+  justify-items: center;
   /* Write your code here */
 }
 
