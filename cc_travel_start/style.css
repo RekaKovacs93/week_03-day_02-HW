@@ -152,11 +152,12 @@ img {
 
 .single-testmonial{
   background-color: white;
-  width: 250px;
+  width: 200px;
   height: 300px;
   border-radius: 5px;
   justify-items: center;
   text-align: center;
+  padding: 2rem;
   /* Write your code here */
 }
 
