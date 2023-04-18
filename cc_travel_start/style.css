@@ -1,0 +1,183 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  height: 4rem;
+  background-color: #4584b1;
+  color: #fff;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  margin-left: 40px;
+}
+
+nav {
+  background-color: #103594;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  margin: 0px;
+  display: flex;
+  gap: 2rem;
+}
+
+nav > ul > li {
+  list-style: none;
+}
+
+nav > ul > li > a {
+  text-decoration: none; 
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+nav > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+.where-togo {
+  background-color: #040e27;
+  padding: 10px;
+
+}
+
+.where-togo > h3 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.search-form {
+  display: flex;
+}
+
+.input-field {
+  width: 15rem;
+  margin: 15px 10px;
+}
+
+input, .nice-select {
+  width: 200px;
+  height: 50px;
+  border: 0px;
+  padding: 0;
+  border-radius: 5px;
+  /* come back to travel type height discrepancy */
+}
+
+.search-btn {
+  height: 50px;
+  width: 100px;
+  background-color: rgb(236, 81, 53);
+  color: #fff;
+  font-size: 1rem;
+  border: 0;
+  border-radius: 5px;
+  padding: 0;
+}
+
+/* Styling the elements of Forms is difficult. */
+/* Hint: https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling */
+
+
+
+
+
+.search-btn {
+  /* Buttons are probably the most fun to style! The border-radius and cursor properties can quickly make a button look good */
+  /* Style the search button using the following properties: */
+  /* 
+  - background
+  - color
+  - font-size
+  - height
+  - width
+  - border
+  - border-radius
+  - cursor
+  */
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+  'image image image'
+  'image image image';
+  justify-items: center;
+  gap: 10px;
+  margin: 0 2.5rem
+  
+}
+
+
+.section-title {
+  text-align: center ;
+  /* The <div> with class section-title contains an <h3> child which we want to center */
+  /* The easiest way to center child elements is to set the display property to 'flex' and justify the content */
+}
+
+.single-destination {
+  overflow: hidden;
+  /* Use the margin property to make some space between the destinations */
+  /* Set the overflow to 'hidden' */
+  /* The overflow CSS shorthand property sets the desired behaviour for an element's overflow 
+    — i.e. when an element's content is too big to fit. In this case, the image is too big too fit. */
+}
+
+img {
+  grid-area: image;
+  max-width: 100%;
+  /* Set the max-width property to 100% */
+}
+
+/* Let's take the training wheels off. Finish off the page by adding styles to the remaining blocks */
+
+.testimonial-area {
+  background-color: rgb(66, 71, 81);
+  padding: 2rem;
+  /* Write your code here */
+}
+
+.single-testmonial{
+  background-color: white;
+  width: 250px;
+  height: 300px;
+  border-radius: 5px;
+  justify-items: center;
+  /* Write your code here */
+}
+
+.footer {
+  /* Write your code here */
+}
+
+.footer-widget p {
+  /* Write your code here */
+}
+
+.footer-widget a:hover {
+   /* Write your code here */
+}
+
+.footer-widget ul li {
+  /* Write your code here */
+}
+
+.footer-widget a {
+   /* Write your code here */
+}
+
+/* Media Queries */
+
+@media (max-width: 720px) {
+    /* Add some responsive code here */
+    /* Make the destinations stack on top of each other */
+    /* Make the form input stack on top of each other */
+}
