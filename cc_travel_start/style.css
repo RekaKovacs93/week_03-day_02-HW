@@ -137,7 +137,7 @@ input, .nice-select {
 }
 
 img {
-  grid-area: image;
+  /* grid-area: image; */
   max-width: 100%;
   /* Set the max-width property to 100% */
 }
@@ -160,6 +160,7 @@ img {
   padding: 2rem;
   /* Write your code here */
 }
+
 
 .footer {
   background-color: #040e27;
